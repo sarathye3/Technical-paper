@@ -1,8 +1,7 @@
 # MVC (Spring MVC)
 ## Abstract :
-The __MVC__ architecture was develoed to make development of web applications in `rapid and parallel` manner. If an MVC model is used to develop any particular web application then it is possible that the application can be developed three times faster than normal development. This is possible because the Model, View and Controller can be developed by three developers parallely at the same time.
+The __MVC__ architecture was developed to make development of web applications in `rapid and parallel` manner. If an MVC model is used to develop any particular web application then it is possible that the application can be developed three times faster than normal development. This is possible because the Model, View and Controller can be developed by three developers parallely at the same time.
 ___
-![Image](https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/MVC-Process.svg/1280px-MVC-Process.svg.png)
 ## Introduction :
  `Model–view–controller` (__MVC__) is a software design pattern commonly used for developing user interfaces that divide the related program logic into three interconnected elements.
  ___
@@ -14,10 +13,13 @@ ___
 ```A view represents the provided information in a particular format. Generally, ```__JSP+JSTL__ ```  is used to create a view page.```
 ### Controller : 
 ```A controller contains the ```__business logic__ ``` of an application. Here, the  ```__@Controller__ ``` annotation is used to mark the class as the controller.```
+![Image](https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/MVC-Process.svg/1280px-MVC-Process.svg.png)
 ___ 
+
 ## Spring MVC :
-A Spring MVC is a Java framework which is used to build web applications. It also follows the `Model-View-Controller` design pattern. It implements all the basic features of a core spring framework like Inversion of Control, Dependency Injection.A Spring MVC provides an elegant solution to use MVC in spring framework by the help of __DispatcherServlet__. Here, DispatcherServlet is a class that receives the incoming request and maps it to the right resource such as controllers, models, and views..
->In the image given below the __Front Controller__ represents the __Dispatcher Servelet__ and the process happening in the Spring MVC can be understood easily by viewing it 
+A Spring MVC is a Java framework which is used to build web applications. It also follows the `Model-View-Controller` design pattern. It implements all the basic features of a core spring framework like Inversion of Control, Dependency Injection. A Spring MVC provides an elegant solution to use MVC in spring framework by the help of __DispatcherServlet__. Here, DispatcherServlet is a class that receives the incoming request and maps it to the right resource such as controllers, models, and views..
+
+In the image given below the __Front Controller__ represents the __Dispatcher Servelet__ and the process happening in the Spring MVC can be understood easily by viewing it 
 
 ![Image](https://docs.spring.io/spring-framework/docs/3.2.x/spring-framework-reference/html/images/mvc.png)
 ## Process behind the scenes :
@@ -61,7 +63,9 @@ specifications such as JMS, JDBC, JPA and JTA. `
     `It provides declarative support for caching,
 validation, transactions and formatting.`
 ___
-> MVC patterns separate the `input, processing, and output` of an application.
+MVC patterns separate the `input, processing, and output` of an application.
+## Conclusion :
+ Every framework has its own importance. In the case of Spring MVC it is that rapid and parallel development can be done which saves more time.
 ## References :
-1. [Javatpoint](http://www.javatpoint.com/spring-3-mvc-tutorial).
-2. [spring.io](https://docs.spring.io/spring-framework/docs/3.2.x/spring-framework-reference/html/mvc.html).
+- [Javatpoint](http://www.javatpoint.com/spring-3-mvc-tutorial).
+- [spring.io](https://docs.spring.io/spring-framework/docs/3.2.x/spring-framework-reference/html/mvc.html).
